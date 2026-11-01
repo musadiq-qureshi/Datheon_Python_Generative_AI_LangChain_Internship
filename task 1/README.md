@@ -1,13 +1,15 @@
-# ⚡ Structured LLM Prompt Pipeline & JSON Extractor
+<h1 align="center">⚡ Structured LLM Prompt Pipeline & JSON Extractor</h1>
 
 <p align="center">
   <strong>Turning Unstructured Invoice Text into Structured Data with Generative AI</strong>
-  <br><br>
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-Google%20Gemini-8E75B2?logo=google" />
-  <img src="https://img.shields.io/badge/Validation-Pydantic-E92063" />
-  <img src="https://img.shields.io/badge/Output-JSON-orange" />
-  <img src="https://img.shields.io/badge/Internship-Datheon-success" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/AI-Google%20Gemini-8E75B2?logo=google" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Validation-Pydantic-E92063" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/Output-JSON-orange" alt="JSON" />
+  <img src="https://img.shields.io/badge/Internship-Datheon-success" alt="Datheon Internship" />
 </p>
 
 ---
