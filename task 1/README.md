@@ -36,14 +36,14 @@ The extracted response is validated using Pydantic to ensure that the required f
 
 ## 🧰 Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| Python | Application development |
-| Google Gemini API | AI-based information extraction |
-| Google GenAI SDK | Gemini API connection |
-| Pydantic | Data validation |
-| JSON | Structured output |
-| python-dotenv | Environment variable management |
+| Technology          | Purpose                              |
+|:--------------------|:-------------------------------------|
+| Python              | Application development              |
+| Google Gemini API   | AI-based information extraction      |
+| Google GenAI SDK    | Gemini API connection                |
+| Pydantic            | Data validation                       |
+| JSON                | Structured output                     |
+| python-dotenv       | Environment variable management      |
 
 ## 🔄 System Workflow
 
@@ -177,17 +177,21 @@ This screenshot demonstrates the successful extraction of invoice information in
 
 **Never share your private Gemini API key publicly.**
 
-## 👨‍💻 Developer
+# 🏆 Datheon AI & ML Internship
 
-**Musadiq Mehmood Qureshi**
+## 🚀 Structured LLM Prompt Pipeline & JSON Extractor
 
-- GitHub: [musadiq-qureshi](https://github.com/musadiq-qureshi)
-- LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/musadiq-qureshi-32271936a)
+**Internship Task 1 | Generative AI**
 
-## 🏆 Internship Details
+A Python-based Generative AI project that uses Google Gemini AI to process structured prompts and extract information into well-formatted JSON outputs.
+
+---
+
+
+# 🏆 Internship Details
 
 | Detail | Information |
-|---|---|
+|:---|:---|
 | Organization | Datheon |
 | Program | AI & ML Internship |
 | Task | Task 1 |
@@ -196,8 +200,27 @@ This screenshot demonstrates the successful extraction of invoice information in
 
 ---
 
-<p align="center">
-  <strong>⚡ Built with Python. Powered by Google Gemini AI.</strong>
-  <br>
-  <em>Part of my Datheon AI & ML Internship journey.</em>
+# 👨‍💻 Developer
+
+### Musadiq Mehmood Qureshi
+
+<p>
+  <a href="https://github.com/musadiq-qureshi">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/musadiq-qureshi-32271936a">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </p>
+
+💡 Focused on writing clean, efficient Python code and developing practical AI-powered applications.
+
+---
+
+### ⚡ Technology
+
+**Built with Python | Powered by Google Gemini AI**
+
+---
+
+⭐ **Thanks for visiting my repository!**
