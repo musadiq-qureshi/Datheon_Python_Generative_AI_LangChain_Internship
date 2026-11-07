@@ -55,7 +55,7 @@ When a user asks a question, the system retrieves relevant document content and 
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
-|---|---|
+|:---|:---|
 | Python | Main programming language |
 | LangChain | RAG application framework |
 | Google Gemini | AI answer generation |
@@ -63,6 +63,8 @@ When a user asks a question, the system retrieves relevant document content and 
 | ChromaDB | Vector database |
 | PyPDF | PDF text extraction |
 | python-dotenv | Environment variable management |
+
+---
 
 ## 🧠 How the RAG System Works
 
@@ -206,13 +208,15 @@ The application will load the PDF, process its content, create embeddings, store
 The application was tested with different questions using the sample PDF document.
 
 | Test Question | Result |
-|---|---|
+|:---|:---|
 | What courses does Global Learning Hub offer? | Lists the available courses |
 | How much does Python Foundations cost? | EUR 180 |
 | How many desktop computers are available? | 24 |
 | What attendance percentage is required for a certificate? | 80% |
 | What are the support desk hours? | Monday–Friday: 08:30–17:30; Saturday: 10:00–13:00 |
 | Does the center offer cybersecurity courses? | Correctly reports that the information is unavailable |
+
+---
 
 ### 📸 Sample Application Outputs
 
