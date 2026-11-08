@@ -1,2 +1,11 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
