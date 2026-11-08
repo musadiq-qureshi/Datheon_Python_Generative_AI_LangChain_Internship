@@ -1,0 +1,24 @@
+Global Technology Solutions
+
+Company: Global Technology Solutions
+Project: Multi-Tool Autonomous AI Agent
+
+Technologies:
+- Python
+- LangChain
+- Google Gemini
+- DuckDuckGo Search
+
+Agent Tools:
+1. Web Search
+2. Python Calculator
+3. Local File Reader
+
+Business Information:
+Annual Revenue: $250,000
+Employees: 45
+Projects Completed: 28
+Countries Served: 12
+
+Project Goal:
+Build an autonomous AI agent that can select and use multiple tools to solve complex research, calculation, and file-based questions.
