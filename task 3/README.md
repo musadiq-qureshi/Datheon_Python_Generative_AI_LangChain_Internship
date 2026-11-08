@@ -17,7 +17,7 @@
 
 ---
 
-## 📌 Project Overview
+<h2 align="left">📌 Project Overview</h2>
 
 The **Multi-Tool Autonomous AI Agent** is developed as Task 3 of the **Datheon Python + Generative AI & LangChain Internship**.
 
@@ -31,7 +31,7 @@ Powered by Google Gemini and LangChain, the agent integrates three tools:
 
 ---
 
-## ✨ Key Features
+<h2 align="left">✨ Key Features</h2>
 
 - Intelligent tool selection using LangChain.
 - DuckDuckGo web search integration.
@@ -44,7 +44,7 @@ Powered by Google Gemini and LangChain, the agent integrates three tools:
 
 ---
 
-## 🛠️ Technologies Used
+<h2 align="left">🛠️ Technologies Used</h2>
 
 <table width="100%">
   <thead>
@@ -81,34 +81,100 @@ Powered by Google Gemini and LangChain, the agent integrates three tools:
   </tbody>
 </table>
 
-## 📂 Project Structure
+---
 
-```text
-Task_3/
-│
-├── main.py
-├── sample.txt
-├── requirements.txt
-├── README.md
-├── .env.example
-├── .gitignore
-│
-└── screenshots/
-    ├── task3_agent_code_01.png
-    ├── task3_agent_code_02.png
-    ├── task3_agent_code_03.png
-    ├── task3_agent_code_04.png
-    ├── task3_agent_code_05.png
-    ├── task3_agent_code_06.png
-    ├── task3_agent_ready.png
-    ├── task3_agent_calculator.png
-    ├── task3_agent_web_search.png
-    └── task3_agent_file_reader.png
-```
+<h2 align="left">🔧 Agent Tools</h2>
+
+### 1. 🌐 Web Search Tool
+
+Uses DuckDuckGo to search the internet and retrieve relevant information for user queries.
+
+### 2. 🧮 Python Calculator Tool
+
+Evaluates mathematical expressions using permitted Python AST operations instead of the unsafe `eval()` function.
+
+### 3. 📄 Local File Reader Tool
+
+Reads TXT files located directly in the project directory and provides their contents to the AI agent.
 
 ---
 
-## ⚙️ Installation & Setup
+<h2 align="left">📂 Project Structure</h2>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="30%">File / Folder</th>
+      <th align="left" width="70%">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><code>.venv/</code></td>
+      <td align="left">Local Python virtual environment (not uploaded to GitHub)</td>
+    </tr>
+    <tr>
+      <td align="left"><code>__pycache__/</code></td>
+      <td align="left">Python-generated cache files (not uploaded to GitHub)</td>
+    </tr>
+    <tr>
+      <td align="left"><code>.env</code></td>
+      <td align="left">Private Gemini API key (not uploaded to GitHub)</td>
+    </tr>
+    <tr>
+      <td align="left"><code>main.py</code></td>
+      <td align="left">Main AI agent application</td>
+    </tr>
+    <tr>
+      <td align="left"><code>sample.txt</code></td>
+      <td align="left">Sample text file used by the file reader tool</td>
+    </tr>
+    <tr>
+      <td align="left"><code>requirements.txt</code></td>
+      <td align="left">Required Python dependencies</td>
+    </tr>
+    <tr>
+      <td align="left"><code>README.md</code></td>
+      <td align="left">Project documentation</td>
+    </tr>
+    <tr>
+      <td align="left"><code>.env.example</code></td>
+      <td align="left">Gemini API key configuration template</td>
+    </tr>
+    <tr>
+      <td align="left"><code>.gitignore</code></td>
+      <td align="left">Specifies files and folders excluded from Git</td>
+    </tr>
+    <tr>
+      <td align="left"><code>screenshots/</code></td>
+      <td align="left">Python source code and execution screenshots</td>
+    </tr>
+  </tbody>
+</table>
+
+### 🔐 Local Files & GitHub
+
+**Local files not uploaded to GitHub:**
+
+- `.venv/`
+- `__pycache__/`
+- `.env`
+
+**Files uploaded to GitHub:**
+
+- `main.py`
+- `sample.txt`
+- `requirements.txt`
+- `README.md`
+- `.env.example`
+- `.gitignore`
+- `screenshots/`
+
+**Security Note:** The actual `.env` file contains the private Gemini API key. It must never be uploaded to a public repository.
+
+---
+
+<h2 align="left">⚙️ Installation & Setup</h2>
 
 ### Prerequisites
 
@@ -168,7 +234,7 @@ python main.py
 
 ---
 
-## 💻 Example Usage
+<h2 align="left">💻 Example Usage</h2>
 
 ### 🌐 Web Search
 
@@ -196,9 +262,9 @@ Read sample.txt and tell me the annual revenue and number of employees.
 
 ---
 
-## 📸 Screenshots & Demonstrations
+<h2 align="left">📸 Screenshots & Demonstrations</h2>
 
-The following screenshots demonstrate the source code, agent initialization, and successful execution of all three tools.
+The following screenshots demonstrate the Python source code, agent initialization, and successful execution of all three tools.
 
 ### 1. Python Source Code
 
@@ -252,7 +318,7 @@ The following screenshots demonstrate the source code, agent initialization, and
 
 ---
 
-## 🔐 Security & Privacy
+<h2 align="left">🔐 Security & Privacy</h2>
 
 Security considerations implemented in this project:
 
@@ -268,7 +334,7 @@ Security considerations implemented in this project:
 
 ---
 
-## 🎯 Learning Outcomes
+<h2 align="left">🎯 Learning Outcomes</h2>
 
 Through this project, I gained practical experience in:
 
@@ -282,37 +348,40 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 🏆 Internship Information
+<h2 align="left">🏆 Internship Information</h2>
 
-<table>
+<table width="100%">
   <tbody>
     <tr>
-      <th align="left">Internship</th>
-      <td>Datheon Python + Generative AI & LangChain Internship</td>
+      <th align="left" width="30%">Internship</th>
+      <td align="left">Datheon Python + Generative AI & LangChain Internship</td>
     </tr>
     <tr>
       <th align="left">Task Number</th>
-      <td>Task 03</td>
+      <td align="left">Task 03</td>
     </tr>
     <tr>
       <th align="left">Project</th>
-      <td>Multi-Tool Autonomous AI Agent</td>
+      <td align="left">Multi-Tool Autonomous AI Agent</td>
     </tr>
     <tr>
       <th align="left">Status</th>
-      <td>Successfully Completed</td>
+      <td align="left">Successfully Completed</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-## 👨‍💻 Author
+<h2 align="left">👨‍💻 Author</h2>
 
-**Musadiq Mehmood Qureshi**
-
-- GitHub: [musadiq-qureshi](https://github.com/musadiq-qureshi)
-- LinkedIn: [Musadiq Qureshi](https://www.linkedin.com/in/musadiq-qureshi-32271936a/)
+<p align="left">
+  <strong>Musadiq Mehmood Qureshi</strong>
+  <br><br>
+  <a href="https://github.com/musadiq-qureshi">GitHub Profile</a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/musadiq-qureshi-32271936a/">LinkedIn Profile</a>
+</p>
 
 ---
 
